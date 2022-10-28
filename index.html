@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Allman Brothers Band Quiz </title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+
+<div class="container">
+	<div class="row">
+		<div class="col-8 mx-auto">
+
+			<div class="mt-4">
+			<h1>The Allman Brothers Band Grand Quiz</h1>
+			</div>
+
+			<div class="mt-4">
+			<p>The Allman Brothers Band was a southern rock outfit that gained popularity in the 1970s. They had a bizarre and tragic history. To learn learn more and answer the questions below, click <a href="https://en.wikipedia.org/wiki/The_Allman_Brothers_Band">here</a>.</p>
+				</div>
+
+			<form method="post">
+
+				<div class="mt-4">
+					<label for="question_1" class="form-label">In what U.S. city was the band formed? </label>
+					<input class="form-control" type="text" name="jacksonville" id="question_1">
+				</div>
+
+				<div class="mt-4">
+					<label for="question_2" class="form-label">In what year did the Allman Brothers Band release its first studio album?</label>
+					<input class="form-control" type="text" name="1969" id="question_2">
+				</div>
+
+				<div class="mt-4">
+				<label for="question_3" class="form-label">Describe the style of music the band performed in your own words. Use at least two sentences to answer this question.</label>
+				<textarea class="form-control" name="southern_rock" id="question_3" rows="3"></textarea>
+				</div>
+
+				<div class="mt-4">
+
+					<label id="question_4" class="form-label">Which member of the band died in a motorcycle accident in 1971?</label>
+
+					<div class="form-check">
+						<label class="form-label"><input class="form-check-input" type="radio" name="question_4" value="duane_allman" checked>  Duane Allman</label>
+					</div>
+
+					<div class="form-check">
+						<label class="form-label"><input class="form-check-input" type="radio" name="question_4" value="gregg_allman">  Gregg Allman</label>
+					</div>
+
+					<div class="form-check">
+						<label class="form-label"><input class="form-check-input" type="radio" name="question_4" value="dickey_betts">  Dickey Betts</label>
+					</div>
+
+					<div class="form-check">
+						<label class="form-label"><input class="form-check-input" type="radio" name="question_4" value="berry_oakley">  Berry Oakley</label>
+					</div>
+
+					<div class="form-check">
+						<label class="form-label"><input class="form-check-input" type="radio" name="question_4" value="jaimoe"> Jaimoe</label>
+					</div>
+
+				</div>
+
+				<div class="mt-4">
+
+					<label id="question_5" class="form-label">Which of these songs were originally created by the Allman Brothers Band? (check all that apply)</label>
+
+					<div class="form-check">
+						<label class="form-label"><input class="form-check-input" type="checkbox" name="question_5" value="blue_sky"> "Blue Sky"</label>
+					</div>
+
+					<div class="form-check">
+						<label class="form-label"><input class="form-check-input" type="checkbox" name="question_5" value="free_bird"> "Free Bird"</label>
+					</div>
+
+					<div class="form-check">
+						<label class="form-label"><input class="form-check-input" type="checkbox" name="question_5" value="highway_song"> "Highway Song"</label>
+					</div>
+
+					<div class="form-check">
+						<label class="form-label"><input class="form-check-input" type="checkbox" name="question_5" value="jessica"> "Jessica"</label>
+					</div>
+
+					<div class="form-check">
+						<label class="form-label"><input class="form-check-input" type="checkbox" name="question_5" value="ramblin_man"> "Ramblin' Man"</label>
+					</div>
+
+					<div class="form-check">
+						<label class="form-label"><input class="form-check-input" type="checkbox" name="question_5" value="whipping_post"> "Whipping Post"</label>
+					</div>
+
+				</div>
+
+				<div class="mt-4">
+					<label for="question_6" class="form-label">Which of these Allman Brothers albums was released in 1972?</label>
+					<label class="form-label"><select class="form-select form-select-sm" name="question_6" id="question_6">
+						<option value="rogues">Enlightened Rogues</option>
+						<option value="WLD">Win, Lose or Draw</option>
+						<option value="fillmore">At Fillmore East</option>
+						<option value="idlewild">Idlewild South</option>
+						<option value="peach">Eat a Peach</option>
+						<option value="allman">The Allman Brothers Band</option>
+					</select></label>
+				</div>
+
+				<div class="mt-4 mb-4">
+					<label class="form-label"><input type="submit" class="btn btn-primary" value="Submit"></label>
+					<label class="form-label"><input type="reset" class="btn btn-dark" value="Start Again"></label>
+				</div>
+
+			</form>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
